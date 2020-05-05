@@ -7,4 +7,5 @@ pub fn run(){
 
     println!("Args {:?}", args);
     println!("Command {}", command);
+    // cargo run name=123
 }

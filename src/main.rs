@@ -4,7 +4,7 @@
 // mod datatypes;
 // mod strings;
 // mod tuples;
-// mod arrays;
+mod arrays;
 // mod vectors;
 // mod conditional;
 // mod loops;
@@ -12,7 +12,8 @@
 // mod pointer_ref;
 // mod structures;
 // mod enums;
-mod cli;
+// mod cli;
+// mod option;
 
 fn main() {
 
@@ -27,7 +28,7 @@ fn main() {
 
     // strings::run();
     // tuples::run();
-    // arrays::start();
+    arrays::start();
     // vectors::start();
     // conditional::run();
     // loops::run();
@@ -35,6 +36,7 @@ fn main() {
     // pointer_ref::run();
     // structures::run();
     // enums::run();
-    cli::run();
+    // cli::run();
+    // option::run();
     
 }

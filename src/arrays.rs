@@ -19,4 +19,25 @@ pub fn start () {
     // get slices of two elements
     let slice: &[i32] = &numbers[0..2];
     println!("slice: {:?}", slice);
+
+
+    // matrix
+    let mtx:[[f32;3];2] = 
+    [
+        [1.0, 0.0, 0.0],
+        [0.0, 2.0, 0.0]
+    ];
+
+    println!("Matrix: {:?}", mtx);
+
+    for i in 0..mtx.len()
+    {
+        for j in 0..mtx[i].len()
+        {
+            if i == j {
+                println!("value at diagonal {} {} = {}", i, j, mtx[i][j]);
+            }
+        }
+    }
+
 }
