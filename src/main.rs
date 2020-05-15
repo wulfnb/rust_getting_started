@@ -4,7 +4,7 @@
 // mod datatypes;
 // mod strings;
 // mod tuples;
-mod arrays;
+// mod arrays;
 // mod vectors;
 // mod conditional;
 // mod loops;
@@ -14,6 +14,8 @@ mod arrays;
 // mod enums;
 // mod cli;
 // mod option;
+// mod yaml_reader;
+mod read_file;
 
 fn main() {
 
@@ -28,7 +30,7 @@ fn main() {
 
     // strings::run();
     // tuples::run();
-    arrays::start();
+    // arrays::start();
     // vectors::start();
     // conditional::run();
     // loops::run();
@@ -38,5 +40,7 @@ fn main() {
     // enums::run();
     // cli::run();
     // option::run();
+    // yaml_reader::run();
+    read_file::run();
     
 }
